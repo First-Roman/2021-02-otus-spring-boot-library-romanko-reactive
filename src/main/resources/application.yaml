@@ -1,8 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:h2:mem:testdb
-
-mongock:
-  runner-type: "InitializingBean"
-  change-logs-scan-package:
-    - ru.otus.library.mongock.changelog
